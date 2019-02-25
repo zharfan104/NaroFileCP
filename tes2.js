@@ -24,7 +24,7 @@ function sendHttpPostToBlitline(job_data) {
 	};
 
 	var req = http.request(options, function (res) {
-		res.on("data", function (chunk) {
+		res.on("data", fution (chunk) {
 			console.log("Data=" + chunk);
 		});
 	}).on('error', function (e) {
